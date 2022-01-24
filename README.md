@@ -1,6 +1,7 @@
 # GachaSystem like Diablo2
 
 # 01.25
-- Set Random Item
-- Set Random Item's Options
-- Set Random Item's Values
+- Making Random Item
+- with Set Random Name
+- with Set Random Options
+- with Set Random Values
