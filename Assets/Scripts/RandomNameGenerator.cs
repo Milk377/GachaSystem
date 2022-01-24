@@ -14,7 +14,7 @@ public enum ItemPostfix
 
 public class RandomNameGenerator
 {
-    public int ITEM_MAX_OPTION_COUNT = 7;
+    public int MAX_ITEM_NAME_COUNTS = 7;
     private string nameToReturn;
 
     public RandomNameGenerator()
@@ -25,8 +25,9 @@ public class RandomNameGenerator
 
     private string MakeRandomName()
     {
-        int randomValue1 = Random.Range(0, ITEM_MAX_OPTION_COUNT);
-        int randomValue2 = Random.Range(0, ITEM_MAX_OPTION_COUNT);
+        //시작이 0이고, 최대 7개, 즉 0123456 
+        int randomValue1 = Random.Range(0, MAX_ITEM_NAME_COUNTS);
+        int randomValue2 = Random.Range(0, MAX_ITEM_NAME_COUNTS);
         string returnName = "";
 
         switch (randomValue1){
